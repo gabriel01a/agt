@@ -1,0 +1,78 @@
+#elem{
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;     
+    user-select: none;
+    height : 40px;
+}
+
+#container {
+	position:absolute;
+}
+
+.scrollDiv {
+    height:auto;
+    max-height:150%;
+    overflow:auto;   
+}
+
+#topnav {
+    background-color: #333333;
+    display: block;
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #DDD;
+}
+
+#sidebar {
+	background-color: #EEE;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    overflow: auto;
+}
+
+#content {
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    left: 206px /* 200 + 6*/;
+    right: 0;
+    overflow: hidden;
+    color: #FFF;
+    
+}
+
+#curtain {
+    position: absolute;
+	top:0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    background-color: #777;
+    text-align:center;
+}
+
+
+#content-resizer {
+    position: absolute;
+    height: 6px;
+    top:0px;
+    left: 0;
+    right: 0;
+    background-color: #666;
+    cursor: n-resize;
+}
+
+#sidebar-resizer:hover, #preview-resizer:hover {
+	background-color: #AAA;
+}
